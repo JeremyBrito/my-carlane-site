@@ -1,0 +1,21 @@
+p.links{
+	text-align: left;
+	font-family: Impact;
+	font-size: 20px;
+	font-weight: bold;
+	color: #9933ff;
+}
+p.topsubheading{
+	text-align: center;
+	font-family: Impact;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+p.Cars{
+	text-align: center;
+	font-family: Impact;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}

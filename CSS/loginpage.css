@@ -1,0 +1,31 @@
+p.topsubheading{
+	text-align: center;
+	font-family: Impact;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+p.links{
+	text-align: left;
+	font-family: Impact;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+
+}
+input{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.textbox{
+	width: 30%;
+	padding: 5px;
+	border-color: #000;
+	text-align: center;
+}
+table.Login{
+	background-position: center;
+	background-size: 100% 115%;
+	background-repeat: no-repeat;
+}

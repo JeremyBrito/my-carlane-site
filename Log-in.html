@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log-In</title>
+   <script type = "text/javascript">
+		 function validate() {
+         if( document.myForm.Name.value == "" ) {
+            alert( "Please provide your Name!" );
+            document.myForm.Name.focus();
+            document.myForm.Name.value = "";
+            return false;
+         }
+         if( document.myForm.Password.value == "" ) {
+            alert( "Please provide your Password!" );
+            document.myForm.Password.focus();
+            document.myForm.Password.value = "";
+            return false;
+         }
+         if( document.myForm.Password.value != "CarlaneAutomotives" ) {
+            alert( "Invalid Password!" );
+            document.myForm.Password.focus();
+            document.myForm.Password.value = "Welcome";
+            return false;
+         }
+          alert("Welcome!");
+          return (true);
+         }
+         </script>
+         <link rel="stylesheet" a href = "CSS/loginpage.css" media = "all">
+         <style> 
+            a:link{
+               text-decoration: none;
+            }
+            a:visited{
+               text-decoration: none;
+               color:  #C7FFE0 ;
+         </style>
+        </head>
+        <body style = "background-color: #C7FFE0";>
+        	<p class="links">
+            <div id="menu" align="left">
+        		<a href = "MainHomePage.html" style= color:#9933ff> Home </a> &nbsp;
+           		<a href = "cars.html"   style= color:#9933ff> Cars </a> &nbsp;
+               <a href = "services.html" style= color:#9933ff> Services </a> &nbsp;
+           		<a href = "about.html" style= color:#9933ff> About </a> &nbsp;
+               <a href = "contact.html" style= color:#9933ff> Contact </a> &nbsp;
+        		   <a href = "Location.html" style= color:#9933ff > Location </a> &nbsp;
+            </div>
+         <p>
+        	<table bordercolor = "#fff" border = "1px" cellpadding ="5" cellspacing = "5" width = 90% align="center">
+        		<td>
+        			<img style = "width: 30%; display: block; margin-left: auto; margin-right: auto; "src="CSS/images/Carlane.gif" alt = "Carlane">
+        			<p class = "topsubheading"> Welcome to the Home of Quality Cars and Best Automotive Services</p>
+        		</td>
+        </table>
+
+    <br/>
+
+    <form action = "" name = "myForm" onsubmit="return(validate());">
+    <div style = "background-image:url(CSS/images/.jpg);" class = "Login">
+    <table border = "0" width="100%">
+    	<tr><td>
+    		<p style = "color: black;" class = "topsubheading"> Username:                 
+            <input class = "textbox" type = "text" name = "Name"/>
+    		</p>
+    		</td></tr>
+
+    		<tr><td>
+    		<p style = "color: black;" class = "topsubheading"> Password:
+    			<input class = "textbox" type = "password" name = "Password"/>
+    		</p>
+    	</td></tr>
+
+    	<tr><td>
+    	<p style = "text-align: center;" class = "links">
+    		<input style = "margin: 0 auto; display: block;" type = "submit" value = "Login" />
+    	</p>
+    </td></tr>
+</table></div>
+
+<br/><br/>
+
+</form>
+</body>
+</html>
